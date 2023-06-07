@@ -59,6 +59,7 @@ $(document).keypress(function () {
     
 if(!started){
   $("#level-title").text("Level "+ level);
+     $(".reset").fadeOut();
     nextSequence();
     started=true;
     
