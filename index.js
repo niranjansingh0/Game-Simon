@@ -60,6 +60,7 @@ $(document).keypress(function () {
 if(!started){
   $("#level-title").text("Level "+ level);
      $(".reset").fadeOut();
+    $(".footer").fadeOut();
     nextSequence();
     started=true;
     
@@ -70,6 +71,7 @@ if(!started){
    if(!started){
    $("#level-title").text("Level "+ level);
    $(".reset").fadeOut();
+    $(".footer").fadeOut();
     nextSequence();
     started=true;
    }
